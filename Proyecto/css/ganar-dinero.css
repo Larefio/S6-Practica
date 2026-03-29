@@ -1,0 +1,10 @@
+.repartidores{
+    padding: 5rem 0;
+}
+
+.reparti_arti{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
