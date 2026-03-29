@@ -22,31 +22,43 @@
     </header>
 
     <main>
-      <section>
-        <div>
-          <h2>Encuentra y Pide comida de tu restaurante favorito</h2>
-          <form>
-            <div>
-              <label for="restaurante">Restaurante</label>
-              <input type="text" id="restaurante" placeholder="Tacos Mexico" />
-            </div>
-            <div>
-              <label for="platillo">Platillo</label>
-              <input
-                type="text"
-                id="platillo"
-                placeholder="Pizza,Ensalada,Hamburguesa"
-              />
-            </div>
-            <button type="submit">Buscar</button>
-          </form>
+      <section class="contenedor formulario">
+        <div class="formulario_grid">
+          <div class="formulario_contenido">
+            <h2>Encuentra y Pide comida de tu restaurante favorito</h2>
+            <form class="form">
+              <div class="label">
+                <label for="restaurante">Restaurante</label>
+              </div>
+              <div>
+                <input
+                  type="text"
+                  id="restaurante"
+                  placeholder="Tacos Mexico"
+                  class="form_input"
+                />
+              </div>
+              <div class="label">
+                <label for="platillo">Platillo</label>
+              </div>
+              <div>
+                <input
+                  type="text"
+                  id="platillo"
+                  placeholder="Pizza,Ensalada,Hamburguesa"
+                  class="form_input"
+                />
+              </div>
+              <button type="submit" class="form_buton">Buscar</button>
+            </form>
+          </div>
           <div>
             <img src="img/dibujo_repartidor.svg" alt="respartidor" />
           </div>
         </div>
       </section>
 
-      <section>
+      <section class="">
         <div>
           <div>
             <h2>¿Como Funciona?</h2>
