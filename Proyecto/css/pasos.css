@@ -1,0 +1,29 @@
+.pasos {
+  margin-top: 5rem;
+}
+
+.pasos_contenido {
+  background-color: var(--primario);
+  padding-top: 50px;
+}
+
+.pasos_h2 {
+  text-align: center;
+  color: var(--blanco);
+  font-size: 2rem;
+}
+
+.pasos_h2 span {
+  font-size: 1.5rem;
+  display: block;
+}
+
+.pasos_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.paso_paso img {
+  max-width: 100%;
+  display: block;
+}
